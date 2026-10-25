@@ -1,0 +1,46 @@
+#EXTM3U url-tvg="https://epg.io.vn/epg.xml"
+#EXTM3U x-tvg-url="https://epg.io.vn/epg.xml"
+#EXTINF:-1,ABC Entertains (720p)
+https://c.mjh.nz/abc-me.m3u8
+#EXTINF:-1,ABC News (Australia) (720p)
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1,ABC TV (720p)
+https://c.mjh.nz/abc-nsw.m3u8
+#EXTINF:-1,BBC Earth
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+#EXTINF:-1,Documentary+
+https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
+#EXTINF:-1,FASHION TV HD
+https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
+#EXTINF:-1,HTV Sports
+https://1011154949.vnns.net/CDN-FPT02/HTV-THETHAO-HD-1080p/playlist.m3u8
+#EXTINF:-1,HTV1 (720p)
+https://1011154949.vnns.net/CDN-FPT02/HTV1-HD-1080p/playlist.m3u8
+#EXTINF:-1,HTV2 (720p)
+https://1011154949.vnns.net/CDN-FPT02/HTV2-HD-1080p/playlist.m3u8
+#EXTINF:-1,HTV3 (720p)
+https://1011154949.vnns.net/CDN-FPT02/HTV3-SD-720p/playlist.m3u8
+#EXTINF:-1,HTV4 (1080p)
+https://dethich.pw/htv4/index.m3u8
+#EXTINF:-1,HTV7 (720p)
+https://1011154949.vnns.net/CDN-FPT02/HTV7-HD-1080p/playlist.m3u8
+#EXTINF:-1,HTV9 (720p)
+https://1011154949.vnns.net/CDN-FPT02/HTV9-HD-1080p/playlist.m3u8
+#EXTINF:-1,KBS WORLD
+https://stream8.cinerama.uz/1448/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Tennis Channel (1080p)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1,VOV GIAO THÔNG TP.HCM
+https://str.vov.gov.vn/vovlive/vovGTHCM.sdp_aac/chunklist.m3u8
+#EXTINF:-1,VTV1 HD (1080p)
+https://1011154949.vnns.net/CDN-FPT02/VTV1-HD-1080p/playlist.m3u8
+#EXTINF:-1,VTV2 HD (1080p)
+https://1011154949.vnns.net/CDN-FPT02/VTV2-HD-1080p/playlist.m3u8
+#EXTINF:-1,VTV3 HD (1080p)
+https://1011154949.vnns.net/CDN-FPT02/VTV3-HD-1080p/playlist.m3u8
+#EXTINF:-1,VTV4 HD (1080p)
+https://vtvgolivepre-vtv02.vtvdigital.vn/hls/vtv/live/vtv4__vtv720p-h264/index.m3u8
+#EXTINF:-1,VTV6 (1080p)
+https://vtvgolivepre-vtv02.vtvdigital.vn/hls/vtv/live/vtv6__vtv720p-h264/index.m3u8
+#EXTINF:-1,VTV7 HD (1080p)
+https://vtvgolivepre-vtv02.vtvdigital.vn/hls/vtv/live/vtv7__vtv720p-h264/index.m3u8
