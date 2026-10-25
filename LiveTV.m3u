@@ -1,46 +1,68 @@
 #EXTM3U url-tvg="https://epg.io.vn/epg.xml"
 #EXTM3U x-tvg-url="https://epg.io.vn/epg.xml"
-#EXTINF:-1,ABC Entertains (720p)
+#EXTINF:-1 tvg-id="abcentertains" tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="International",ABC Entertains
 https://c.mjh.nz/abc-me.m3u8
-#EXTINF:-1,ABC News (Australia) (720p)
+
+#EXTINF:-1 tvg-id="abcnews" tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="International",ABC News (Australia)
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
-#EXTINF:-1,ABC TV (720p)
+
+#EXTINF:-1 tvg-id="abctv" tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="International",ABC TV
 https://c.mjh.nz/abc-nsw.m3u8
-#EXTINF:-1,BBC Earth
+
+#EXTINF:-1 tvg-id="bbcearth" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="International",BBC Earth
 https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
-#EXTINF:-1,Documentary+
+
+#EXTINF:-1 tvg-id="documentaryplus" tvg-logo="https://i.imgur.com/x57klfS.png" group-title="International",Documentary+
 https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
-#EXTINF:-1,FASHION TV HD
+
+#EXTINF:-1 tvg-id="fashiontv" tvg-logo="https://i.imgur.com/GFXsreR.png" group-title="International",Fashion TV
 https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
-#EXTINF:-1,HTV Sports
-https://1011154949.vnns.net/CDN-FPT02/HTV-THETHAO-HD-1080p/playlist.m3u8
-#EXTINF:-1,HTV1 (720p)
-https://1011154949.vnns.net/CDN-FPT02/HTV1-HD-1080p/playlist.m3u8
-#EXTINF:-1,HTV2 (720p)
-https://1011154949.vnns.net/CDN-FPT02/HTV2-HD-1080p/playlist.m3u8
-#EXTINF:-1,HTV3 (720p)
-https://1011154949.vnns.net/CDN-FPT02/HTV3-SD-720p/playlist.m3u8
-#EXTINF:-1,HTV4 (1080p)
-https://dethich.pw/htv4/index.m3u8
-#EXTINF:-1,HTV7 (720p)
-https://1011154949.vnns.net/CDN-FPT02/HTV7-HD-1080p/playlist.m3u8
-#EXTINF:-1,HTV9 (720p)
-https://1011154949.vnns.net/CDN-FPT02/HTV9-HD-1080p/playlist.m3u8
-#EXTINF:-1,KBS WORLD
+
+#EXTINF:-1 tvg-id="kbsworld" tvg-logo="https://i.imgur.com/7DqgELX.png" group-title="International",KBS World
 https://stream8.cinerama.uz/1448/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Tennis Channel (1080p)
+
+#EXTINF:-1 tvg-id="tennischannel" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="International",Tennis Channel
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1,VOV GIAO THÔNG TP.HCM
-https://str.vov.gov.vn/vovlive/vovGTHCM.sdp_aac/chunklist.m3u8
-#EXTINF:-1,VTV1 HD (1080p)
+
+#EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://i.postimg.cc/F1FvzstX/V1.png" group-title="VTV",VTV1
 https://1011154949.vnns.net/CDN-FPT02/VTV1-HD-1080p/playlist.m3u8
-#EXTINF:-1,VTV2 HD (1080p)
+
+#EXTINF:-1 tvg-id="vtv2hd" tvg-logo="https://i.postimg.cc/yDR4tDRm/V2.png" group-title="VTV",VTV2
 https://1011154949.vnns.net/CDN-FPT02/VTV2-HD-1080p/playlist.m3u8
-#EXTINF:-1,VTV3 HD (1080p)
+
+#EXTINF:-1 tvg-id="vtv3hd" tvg-logo="https://i.postimg.cc/B8cWZRM0/V3.png" group-title="VTV",VTV3
 https://1011154949.vnns.net/CDN-FPT02/VTV3-HD-1080p/playlist.m3u8
-#EXTINF:-1,VTV4 HD (1080p)
+
+#EXTINF:-1 tvg-id="vtv4hd" tvg-logo="https://i.postimg.cc/Wqzxnzj0/V4.png" group-title="VTV",VTV4
 https://vtvgolivepre-vtv02.vtvdigital.vn/hls/vtv/live/vtv4__vtv720p-h264/index.m3u8
-#EXTINF:-1,VTV6 (1080p)
+
+#EXTINF:-1 tvg-id="vtv6hd" tvg-logo="https://i.postimg.cc/t7Jc81QZ/V6.png" group-title="VTV",VTV6
 https://vtvgolivepre-vtv02.vtvdigital.vn/hls/vtv/live/vtv6__vtv720p-h264/index.m3u8
-#EXTINF:-1,VTV7 HD (1080p)
+
+#EXTINF:-1 tvg-id="vtv7hd" tvg-logo="https://i.postimg.cc/ykSbYwN8/V7.png" group-title="VTV",VTV7
 https://vtvgolivepre-vtv02.vtvdigital.vn/hls/vtv/live/vtv7__vtv720p-h264/index.m3u8
+
+#EXTINF:-1 tvg-id="htvthethaohd" tvg-logo="https://i.imgur.com/ikaiET3.png" group-title="HTV",HTV Sports
+https://1011154949.vnns.net/CDN-FPT02/HTV-THETHAO-HD-1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="htv1hd" tvg-logo="https://i.imgur.com/KEMSBD3.png" group-title="HTV",HTV1
+https://1011154949.vnns.net/CDN-FPT02/HTV1-HD-1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="htv2hd" tvg-logo="https://i.imgur.com/2npoF3Q.png" group-title="HTV",HTV2
+https://1011154949.vnns.net/CDN-FPT02/HTV2-HD-1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="htv3hd" tvg-logo="https://i.imgur.com/TCoIsVF.png" group-title="HTV",HTV3
+https://1011154949.vnns.net/CDN-FPT02/HTV3-SD-720p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="htv4hd" tvg-logo="https://i.imgur.com/BcCA0x2.png" group-title="HTV",HTV4
+https://dethich.pw/htv4/index.m3u8
+
+#EXTINF:-1 tvg-id="htv7hd" tvg-logo="https://i.imgur.com/n2PEK28.png" group-title="HTV",HTV7
+https://1011154949.vnns.net/CDN-FPT02/HTV7-HD-1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="htv9hd" tvg-logo="https://i.imgur.com/6GSN524.png" group-title="HTV",HTV9
+https://1011154949.vnns.net/CDN-FPT02/HTV9-HD-1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="vovgiaothong" tvg-logo="https://i.imgur.com/tfYNZmG.png" group-title="VOV",VOV Giao Thông TP.HCM
+https://str.vov.gov.vn/vovlive/vovGTHCM.sdp_aac/chunklist.m3u8
+

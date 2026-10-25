@@ -49,20 +49,20 @@ for src in SOURCES:
 
 print(f"Indexed {len(remote_channels)} unique channels from upstream sources.")
 
-# 2. Channel matching aliases
+# 2. Channel matching aliases (maps normalized clean names to remote keys)
 ALIASES = {
-    "VTV1HD1080P": ["VTV1", "VTV1HD"],
-    "VTV2HD1080P": ["VTV2", "VTV2HD"],
-    "VTV3HD1080P": ["VTV3", "VTV3HD"],
-    "VTV4HD1080P": ["VTV4", "VTV4HD"],
-    "VTV61080P": ["VTV6", "VTV6HD"],
-    "VTV7HD1080P": ["VTV7", "VTV7HD"],
-    "HTV1720P": ["HTV1", "HTV1HD"],
-    "HTV2720P": ["HTV2", "HTV2HD"],
-    "HTV3720P": ["HTV3", "HTV3HD"],
-    "HTV41080P": ["HTV4", "HTV4HD"],
-    "HTV7720P": ["HTV7", "HTV7HD"],
-    "HTV9720P": ["HTV9", "HTV9HD"],
+    "VTV1": ["VTV1", "VTV1HD"],
+    "VTV2": ["VTV2", "VTV2HD"],
+    "VTV3": ["VTV3", "VTV3HD"],
+    "VTV4": ["VTV4", "VTV4HD"],
+    "VTV6": ["VTV6", "VTV6HD"],
+    "VTV7": ["VTV7", "VTV7HD"],
+    "HTV1": ["HTV1", "HTV1HD"],
+    "HTV2": ["HTV2", "HTV2HD"],
+    "HTV3": ["HTV3", "HTV3HD"],
+    "HTV4": ["HTV4", "HTV4HD"],
+    "HTV7": ["HTV7", "HTV7HD"],
+    "HTV9": ["HTV9", "HTV9HD"],
     "HTVSPORTS": ["HTVCTHETHAO", "HTVTHETHAO", "HTVCTHETHAOHD", "HTVSPORTS"],
     "VOVGIAOTHONGTPHCM": ["VOVGIAOTHONGTPHCM", "VOVGIAOTHONG"]
 }
@@ -81,6 +81,8 @@ cur_extinf = None
 
 for line in lines:
     line_clean = line.strip()
+    if not line_clean:
+        continue
     if line_clean.startswith("#EXTINF"):
         cur_extinf = line_clean
         output_lines.append(line_clean)
@@ -104,13 +106,14 @@ for line in lines:
                 if matched:
                     break
                     
-            if orig_name == "HTV4 (1080p)" and "freem3u.xyz" in new_url:
+            if orig_name == "HTV4" and ("freem3u.xyz" in new_url or not new_url):
                 new_url = "https://dethich.pw/htv4/index.m3u8"
                 
         output_lines.append(new_url)
+        output_lines.append("")  # Empty line between channels
         cur_extinf = None
 
 with open(m3u_file, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines) + "\n")
 
-print(f"Successfully updated {m3u_file}!")
+print(f"Successfully updated {m3u_file} with logos and clean names preserved!")
